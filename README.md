@@ -53,6 +53,18 @@ Your AI follows the full INSTALL GUIDE in `SETUP.md` with you, one step at a tim
 
 After that, just talk to it. Open your AI tool in the kit folder whenever you want your assistant.
 
+## Use it from your phone (optional, later)
+
+Once the local kit works, you can keep a copy on GitHub so your AI can read and save notes from your phone with the computer off. Needs a paid Claude plan (Claude Code in the Claude phone app). Tested once with Claude Code on a Pro-or-higher plan; other AI apps are not confirmed.
+
+1. On GitHub, open this repo and click **Use this template**, then **Create a new repository**. Set it to **Private**. Never public.
+2. Install the Claude GitHub App on your GitHub account and choose **Only select repositories**, then pick only that one repo.
+3. In the Claude phone app, open the **Code** tab and start a session on that repo.
+4. Start every session with this one line: `Read AGENTS.md first. Save only by creating a new file in vault/inbox/, commit it to the default branch, and give me the commit link.`
+5. Check on GitHub that the new note is on the main branch. Notes saved from the phone land in `vault/inbox/`; your AI files them into the right folders the next time you work on your computer.
+
+Keep real customer details out of the cloud copy unless the customer agreed in writing. If a note can't be saved, the AI returns it in the chat marked MANUAL SAVE REQUIRED; paste it into the GitHub phone editor.
+
 ## What's inside
 
 - `AGENTS.md`: who your assistant is and the rules it always follows. Claude Code and Codex both read it.

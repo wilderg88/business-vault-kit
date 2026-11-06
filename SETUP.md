@@ -27,6 +27,8 @@ All three paths use the same kit folder and the same rules file, `AGENTS.md`. Pi
 4. In Claude's **Settings**, then **Profile**, then personal preferences, save this one-line preference (not confirmed to be available on the Free plan): "At the start of every new conversation, read AGENTS.md and VAULT-INDEX.md in my business vault kit folder before responding."
 5. Start a new chat and paste: Read SETUP.md and set me up. The welcome line appears after setup. If it does not read the files, ask: "Please read AGENTS.md and VAULT-INDEX.md now."
 
+**Later, optional: use it from your phone.** After setup works on your computer, README.md has the steps (make a private copy of this repo on GitHub with Use this template, then use Claude Code in the Claude phone app). Do it only after the local kit works.
+
 **Before the first write, back up.** Copy the whole kit folder to a USB drive or another folder, or turn on File History (Windows) or Time Machine (Mac). Do this before any path writes a single note. TROUBLESHOOTING.md has the steps.
 
 ---
